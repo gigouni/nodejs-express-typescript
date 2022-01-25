@@ -1,10 +1,10 @@
 {
   "name": "nodejs-express-typescript",
   "version": "1.0.0",
-  "description": "Typescript exercise to learn how to properly use Node.js/Express with Typescript",
+  "description": "TypeScript exercise to learn how to properly use Node.js/Express with Typescript",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server",
+    "start": "nodemon dist/app.js",
     "compile:watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/gigouni/nodejs-express-typescript/issues"
   },
-  "homepage": "https://github.com/gigouni/nodejs-express-typescript#readme"
+  "homepage": "https://github.com/gigouni/nodejs-express-typescript#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.12",
+    "nodemon": "^2.0.15"
+  }
 }
