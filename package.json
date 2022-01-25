@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-express-typescript",
+  "version": "1.0.0",
+  "description": "Typescript exercise to learn how to properly use Node.js/Express with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "compile:watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigouni/nodejs-express-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gigouni/nodejs-express-typescript/issues"
+  },
+  "homepage": "https://github.com/gigouni/nodejs-express-typescript#readme"
+}
