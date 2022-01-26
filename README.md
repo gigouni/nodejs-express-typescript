@@ -10,7 +10,7 @@
     <a href="#" target="_blank"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
 </p>
 
-## 1.1. Getting started
+## Getting started
 
 ```shell
 # In a first shell
@@ -20,5 +20,13 @@ npm start     # start the local server with live reload (open a new browser tab)
 # In another shell
 npm run compile:watch
 ```
+
+## How does it work
+
+The `src/app.ts` file starts the local server. It opens routes of the API and waits for requests.
+When a request is send to the API, the router triggers the controller function dedicated to the target route.
+The controller performs the get/create/update/delete operation and then respond a JSON message to the API.
+
+## Credits
 
 [Credits to Maximilian Schwarzmüller / Udemy](https://www.udemy.com/course/understanding-typescript/learn/lecture/16998826#overview)
